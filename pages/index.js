@@ -7,7 +7,6 @@ import Benefits from '../components/benefits';
 import Footer from '../components/footer';
 import Cta from '../components/cta';
 import Faq from '../components/faq';
-import PopupWidget from '../components/popupWidget';
 import Features from '../components/features';
 
 export default function Home() {
