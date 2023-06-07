@@ -96,4 +96,9 @@ const faqdata = [
 		answer:
 			'We provide dedicated support to organizers throughout the entire process. Our support team is available to assist with app setup, provide guidance on activity selection and customization, address technical issues, and offer prompt assistance whenever needed.',
 	},
+	{
+		question: 'What is the pricing model for the app?',
+		answer:
+			'Our app follows a subscription-based pricing model. You can choose from different subscription tiers based on your specific needs and the size of your team. Pricing is calculated based on many criteries - companz size, which services do you want to, venue, activities, support, etc...',
+	},
 ];

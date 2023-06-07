@@ -5,7 +5,7 @@ import { Disclosure } from '@headlessui/react';
 export default function Navbar() {
 	const navigation = [
 		{ title: 'FAQ', link: '/faq' },
-		{ title: 'Our story', link: '/' },
+		// { title: 'Our story', link: '/' },
 	];
 
 	return (
