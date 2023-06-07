@@ -21,7 +21,7 @@ export default function Hero() {
 							<a
 								href='tel:+420725423538'
 								className='px-8 py-4 text-lg font-medium text-center text-white bg-primaryPurple rounded-md '>
-								Try a demo
+								Get Started Now
 							</a>
 						</div>
 					</div>
