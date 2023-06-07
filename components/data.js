@@ -49,7 +49,7 @@ const benefitTwo = {
 	image: benefitTwoImg,
 	bullets: [
 		{
-			title: 'Data-Driven Insights',
+			title: 'Data-Driven insights',
 			desc: 'What people like, how they enjoy it, who win and what motivate them',
 			icon: <DocumentDownloadIcon />,
 		},
@@ -59,7 +59,7 @@ const benefitTwo = {
 			icon: <AdjustmentsIcon />,
 		},
 		{
-			title: 'Engaging Activities and happy employees',
+			title: 'Engaging activities and happy employees',
 			desc: 'Innovative and new activities specially prepared for your team needs',
 			icon: <HeartIcon />,
 		},
@@ -107,7 +107,7 @@ const features = [
 		icon: <MoonIcon />,
 	},
 	{
-		title: 'Administration for referee during activities',
+		title: 'Administration for referee',
 		description:
 			'No matter how many days, we will engage your employees with full harmonogram of different activities',
 		icon: <GlobeIcon />,
