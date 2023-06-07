@@ -11,7 +11,6 @@ import {
 import Benefits from '../components/benefits';
 import Footer from '../components/footer';
 import Cta from '../components/cta';
-import Faq from '../components/faq';
 import Features from '../components/features';
 import Activities from '../components/activities';
 

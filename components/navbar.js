@@ -3,7 +3,10 @@ import ThemeChanger from './DarkSwitch';
 import { Disclosure } from '@headlessui/react';
 
 export default function Navbar() {
-	const navigation = ['FAQ', 'Our story'];
+	const navigation = [
+		{ title: 'FAQ', link: '/faq' },
+		{ title: 'Our story', link: '/' },
+	];
 
 	return (
 		<div className='w-full'>
@@ -26,11 +29,11 @@ export default function Navbar() {
 					{/* menu  */}
 					<div className='hidden text-center lg:flex lg:items-center'>
 						<ul className='items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex'>
-							{navigation.map((menu, index) => (
+							{navigation.map((item, index) => (
 								<li className='nav__item' key={index}>
-									<Link href='/' legacyBehavior>
+									<Link href={item.link} legacyBehavior>
 										<a className='inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover: focus:text-white focus:bg-primaryPurple focus:outline-none'>
-											{menu}
+											{item.title}
 										</a>
 									</Link>
 								</li>
