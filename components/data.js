@@ -10,11 +10,15 @@ import {
 	ChatIcon,
 	CheckCircleIcon,
 	MoonIcon,
-	ChartPieIcon,
 } from '@heroicons/react/outline';
 
 import benefitOneImg from '../public/img/benefit-one.png';
 import benefitTwoImg from '../public/img/benefit-two.png';
+
+import activity1 from '../public/img/activity1.jpg';
+import activity2 from '../public/img/activity2.jpg';
+import activity3 from '../public/img/activity3.jpg';
+import activity4 from '../public/img/activity4.jpg';
 
 const benefitOne = {
 	title: 'Benefits for employees',
@@ -111,3 +115,24 @@ const features = [
 ];
 
 export { features };
+
+const activities = [
+	{
+		path: activity1,
+		title: 'Volleyball',
+	},
+	{
+		path: activity2,
+		title: 'Karaoke',
+	},
+	{
+		path: activity3,
+		title: 'Cycling',
+	},
+	{
+		path: activity4,
+		title: 'Team',
+	},
+];
+
+export { activities };

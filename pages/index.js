@@ -2,12 +2,18 @@ import Head from 'next/head';
 import Hero from '../components/hero';
 import Navbar from '../components/navbar';
 import SectionTitle from '../components/sectionTitle';
-import { benefitOne, benefitTwo, features } from '../components/data';
+import {
+	activities,
+	benefitOne,
+	benefitTwo,
+	features,
+} from '../components/data';
 import Benefits from '../components/benefits';
 import Footer from '../components/footer';
 import Cta from '../components/cta';
 import Faq from '../components/faq';
 import Features from '../components/features';
+import Activities from '../components/activities';
 
 export default function Home() {
 	return (
@@ -38,12 +44,14 @@ export default function Home() {
 				experience for your team.
 			</SectionTitle>
 			<Features data={features} />
-			<SectionTitle pretitle='FAQ' title='Frequently Asked Questions'>
-				Got questions? We've got answers! Check out our frequently asked
-				questions below for quick and helpful information about our
-				product/services.
+			<SectionTitle
+				pretitle='Engaging Activities'
+				title='Designed based on your team goals'>
+				Experience a curated collection of uniquely designed activities tailored
+				to your team's specific needs and goals. Introverts and extroverts will
+				be happy.
 			</SectionTitle>
-			<Faq />
+			<Activities data={activities} />
 			<Cta />
 			<Footer />
 		</>
