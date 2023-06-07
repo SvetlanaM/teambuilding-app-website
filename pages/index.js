@@ -35,13 +35,13 @@ export default function Home() {
 			</SectionTitle>
 			<Benefits data={benefitOne} />
 			<Benefits imgPos='right' data={benefitTwo} />
-			<SectionTitle
-				pretitle='What you get'
-				title='Platform +  team building organisation'>
-				Let us take care of every aspect of your team building event, from
-				planning to activities. Gain exclusive access to our cutting-edge
-				platform and custom mobile apps, ensuring a seamless and engaging
-				experience for your team.
+			<SectionTitle pretitle='What you get' title='IT experts + organizers ♥'>
+				Leverage the power of our unique platform and collaborative environment,
+				where IT professionals seamlessly connect with event organizers,
+				synergizing their expertise to deliver an exceptional and tailored
+				experience just for you. <br />
+				<br />
+				<span className='font-bold'>Sveťa, Ondra, Miloš</span>
 			</SectionTitle>
 			<Features data={features} />
 			<SectionTitle
